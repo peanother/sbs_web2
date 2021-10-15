@@ -1,0 +1,45 @@
+.container {
+    position: relative;
+    width: 1200px;
+    height: 800px;
+    border: 5px dashed greenyellow;
+    margin: auto;
+    text-align: center;
+  }
+
+.container div{
+    margin: auto;
+    width: 200px; 
+    height: 200px;
+    border-radius: 10%;
+    line-height: 200px;
+    box-sizing: border-box;
+    text-align: center;
+    font-style: 48px;
+}
+
+
+
+.absolute {
+    position: absolute;
+    border: 3px dashed #000;
+}
+
+
+.base {
+    position: absolute;
+    border: 3px dashed #ddd;
+    z-index: -1;
+    color:#ddd;
+}
+
+.first{left: 0;}
+.second{right: 0;}
+.third{left: 0;bottom: 0;}
+.fourth{right: 0;bottom: 0;}}
+
+
+.fifth{top: 0;left: 500px;}
+.sixth{top: 200px;left: 500px;}
+.seventh{top: 400px;left: 500px;}
+.eighth{top: 600px;left: 500px;}
