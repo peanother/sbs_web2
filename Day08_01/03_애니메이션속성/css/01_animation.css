@@ -26,9 +26,13 @@
         left: 0;
         transform: rotate(0deg);
     }
-    50%{
+    25%{
         left: 250px;
         transform: rotate(180deg);
+    }
+    50%{
+        left: 500px;
+        transform: rotate(360deg);
     }
     75%{
         left: 250px;
