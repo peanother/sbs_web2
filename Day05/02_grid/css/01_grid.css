@@ -1,0 +1,92 @@
+.grid-container{
+display: grid;
+grid-template-columns: auto auto auto;
+grid-template-rows: 100px 300px;
+gap: 10px;
+background-color: aquamarine;
+padding: 10px;
+}
+
+.item{
+    padding: 20px 0;
+    font-size: 30px;
+    border-color: blueviolet;
+    text-align: center;
+}
+
+.grid-container2{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    border-color: azure;
+    padding: 10px;
+
+}
+
+/* 아이템이 시작될 행을 지정 */
+.row-start2{
+    grid-row-start: 2;
+
+}
+.row-start4{grid-row-start: 4;
+grid-column-start: 1;
+grid-column-end: 3;
+}
+
+/* grid-row , grid-xolumn */
+/* :[start] / [end] */
+
+.grid-container3{
+    flex: grid;
+    grid-template-columns: auto auto auto;
+    grid-auto-rows: 100px;
+    gap: 10px;
+    padding: 10px;
+    border-color: brown;
+}
+
+.one{
+    grid-row: 1;
+    grid-column: 1 / 3;
+}
+
+.two{
+    grid-row: 1 / 3;
+    grid-column: 2 / 4;
+}
+
+.three{
+    grid-row: 2 / 5;
+    grid-column: 1;
+}
+
+.four{
+    grid-row: 3;
+    grid-column: 3;
+}
+
+.five{
+    grid-row: 4;
+    grid-column: 2;
+}
+
+.six{
+    grid-row: 4;
+    grid-column: 3;
+}
+
+/* item 여역의 이름을 지정 */
+.area{
+grid-area: title;
+
+}
+
+
+.grid-container4{
+display: grid;
+gap: 10px;
+grid-template-areas: 'title title title . . .';
+border-color: burlywood;
+padding: 10px;
+}
+
